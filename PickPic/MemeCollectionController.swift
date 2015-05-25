@@ -28,6 +28,11 @@ class MemeCollectionController: UICollectionViewController {
         // Get the memes from app delegate
         memes = appDelegate.memes
         
+        if memes.count < 1
+        {
+            self.performSegueWithIdentifier("showEditorFromCollection", sender: self)
+        }
+        
         myCollectionView.reloadData()
     }
 

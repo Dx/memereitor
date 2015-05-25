@@ -27,7 +27,13 @@ class SentMemesViewController : UITableViewController {
 
         // Get the memes from app delegate
         memes = appDelegate.memes
+        
+        if memes.count < 1
+        {
+            self.performSegueWithIdentifier("showEditorFromTable", sender: self)
+        }
         myTableView.reloadData()
+        
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
