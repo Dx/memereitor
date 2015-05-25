@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>336FBF49-E827-48A8-AAAA-69F707435712</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Memereitor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>66E20A13BEFB84B113F60F4BB81C48B898621215</key>
+		<string>github.com:Dx/memereitor.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Memereitor.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>66E20A13BEFB84B113F60F4BB81C48B898621215</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Dx/memereitor.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>66E20A13BEFB84B113F60F4BB81C48B898621215</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>66E20A13BEFB84B113F60F4BB81C48B898621215</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Memereitor</string>
+		</dict>
+	</array>
+</dict>
+</plist>
