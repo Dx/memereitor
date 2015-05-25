@@ -147,7 +147,7 @@
             </objects>
             <point key="canvasLocation" x="2128.5" y="384.5"/>
         </scene>
-        <!--Sent Memes View Controller-->
+        <!--Sent Memes-->
         <scene sceneID="Pit-zW-iCe">
             <objects>
                 <tableViewController id="I36-Hv-qyL" customClass="SentMemesViewController" customModule="PickPic" customModuleProvider="target" sceneMemberID="viewController">
@@ -163,7 +163,7 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" image="Table" id="Y0Z-0R-v4o"/>
-                    <navigationItem key="navigationItem" id="v4J-u3-qRk">
+                    <navigationItem key="navigationItem" title="Sent Memes" id="v4J-u3-qRk">
                         <barButtonItem key="rightBarButtonItem" systemItem="compose" id="7J0-ne-GrF">
                             <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
@@ -206,7 +206,7 @@
             </objects>
             <point key="canvasLocation" x="796.5" y="686.5"/>
         </scene>
-        <!--Item-->
+        <!--Sent Memes-->
         <scene sceneID="KMP-gY-K7c">
             <objects>
                 <collectionViewController id="ApS-2i-rfx" customClass="MemeCollectionController" customModule="PickPic" customModuleProvider="target" sceneMemberID="viewController">
@@ -214,7 +214,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xyH-XN-NoG">
-                            <size key="itemSize" width="150" height="150"/>
+                            <size key="itemSize" width="130" height="130"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -252,7 +252,7 @@
                     </collectionView>
                     <tabBarItem key="tabBarItem" title="Item" id="J48-9k-fe1"/>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="UMJ-Iu-5iU">
+                    <navigationItem key="navigationItem" title="Sent Memes" id="UMJ-Iu-5iU">
                         <barButtonItem key="rightBarButtonItem" systemItem="compose" id="TsB-IG-cbY">
                             <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
@@ -370,6 +370,6 @@
         <image name="Table" width="86" height="81"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vhz-We-LUP"/>
+        <segue reference="MCD-kl-fjb"/>
     </inferredMetricsTieBreakers>
 </document>
