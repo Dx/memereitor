@@ -16,6 +16,9 @@ class MemeReviewViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var shareButton : UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Action, target: self, action: "shareClicked:")
+        self.navigationItem.rightBarButtonItem = shareButton
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -30,7 +33,7 @@ class MemeReviewViewController: UIViewController {
     }
 
     // The preview can be shared again
-    @IBAction func shareClicked(sender: AnyObject) {
+    func shareClicked(sender: UIBarButtonItem) {
         let memedImage = meme!.memedImage as UIImage
         
         let activity = UIActivityViewController(activityItems: [memedImage], applicationActivities: nil)

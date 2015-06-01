@@ -287,28 +287,12 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MHQ-BP-op8">
                                 <rect key="frame" x="62" y="256" width="251" height="155"/>
                             </imageView>
-                            <navigationBar contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="l7z-SG-oa4">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                <items>
-                                    <navigationItem id="vnZ-Iv-B1D">
-                                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="VrJ-pa-rHh">
-                                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <connections>
-                                                <action selector="shareClicked:" destination="O14-u9-aHj" id="388-57-Gef"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.97006142510000004" green="1" blue="0.47152656079999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="MHQ-BP-op8" firstAttribute="leading" secondItem="HJ8-Km-uLP" secondAttribute="leading" id="2LK-MG-PQr"/>
                             <constraint firstItem="MHQ-BP-op8" firstAttribute="top" secondItem="nU3-fz-SaV" secondAttribute="bottom" id="Bai-03-ChG"/>
-                            <constraint firstItem="l7z-SG-oa4" firstAttribute="leading" secondItem="HJ8-Km-uLP" secondAttribute="leadingMargin" constant="-16" id="XtY-mx-lmb"/>
-                            <constraint firstItem="l7z-SG-oa4" firstAttribute="top" secondItem="nU3-fz-SaV" secondAttribute="bottom" id="iPF-d0-E5L"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="l7z-SG-oa4" secondAttribute="trailing" constant="-16" id="j07-6E-a6q"/>
                             <constraint firstItem="MHQ-BP-op8" firstAttribute="bottom" secondItem="ZrG-Ev-S0g" secondAttribute="top" id="qcA-0M-44a"/>
                             <constraint firstAttribute="trailing" secondItem="MHQ-BP-op8" secondAttribute="trailing" id="w16-qC-Maw"/>
                         </constraints>
